@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify
 from audit_trail import AuditTrail
 from ai_compliance import AIComplianceChecker
 import pandas as pd
-def 
 
 app = Flask(__name__)
 
