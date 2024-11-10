@@ -1,0 +1,26 @@
+# Flask for creating APIs
+Flask==2.1.2
+
+# Web3 for blockchain interaction
+web3==5.28.0
+
+# Solcx for compiling Solidity contracts
+py-solc-x==1.1.1
+
+# Ethereum libraries for working with Ethereum smart contracts
+eth-utils==1.10.0
+eth-abi==2.1.1
+eth-account==0.5.7
+
+# Scikit-learn for machine learning models and bias detection
+scikit-learn==1.0.2
+
+# SHAP and LIME for model interpretability
+shap==0.40.0
+lime==0.2.0.1
+
+# Logging and utility tools
+loguru==0.5.3
+
+# Python-dotenv for environment variable management
+python-dotenv==0.20.0
