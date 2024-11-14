@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AI Ethics Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='general-styles.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='realtime-decisions.css') }}"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="dashboard-title">AI Ethics Dashboard</h1>
+
+      <div class="content-wrapper">
+        <div class="main-content">
+          <h2>Importance of Transparency in Artificial Intelligence</h2>
+          <p>
+            Talk about description of our project solution, how blockchain
+            works, why its important, etc.
+          </p>
+        </div>
+
+        <div class="decisions">
+          <h2>Real-Time Decisions</h2>
+          <ol id="decisions-list">
+            <!-- Blockchain records will appear here -->
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
