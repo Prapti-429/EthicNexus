@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AECS - Prompt Audit</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>AI Ethics Compliance System (AECS)</h1>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="audit.html">Prompt Audit</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="audit">
+        <h2>Submit Your AI Prompt</h2>
+        <form>
+          <label for="promptInput">Enter AI Prompt:</label><br />
+          <textarea
+            id="promptInput"
+            rows="5"
+            cols="50"
+            placeholder="Type your AI prompt here..."
+          ></textarea
+          ><br />
+          <button type="button" onclick="auditPrompt()">Audit</button>
+        </form>
+      </section>
+      <section class="results" id="resultsSection">
+        <h3>Audit Results</h3>
+        <p id="resultsDisplay">Your prompt's analysis will appear here.</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 AECS. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
